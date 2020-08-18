@@ -1,0 +1,44 @@
+{
+	"name": "sleep-synchronously",
+	"version": "0.0.0",
+	"description": "Block the main thread for a given amount of time",
+	"license": "MIT",
+	"repository": "sindresorhus/sleep-synchronously",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"sleep",
+		"synchronously",
+		"synchronous",
+		"sync",
+		"block",
+		"main",
+		"thread",
+		"delay",
+		"defer",
+		"wait",
+		"stall",
+		"timeout"
+	],
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"in-range": "^2.0.0",
+		"time-span": "^4.0.0",
+		"tsd": "^0.13.1",
+		"xo": "^0.33.0"
+	}
+}
