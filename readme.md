@@ -6,7 +6,7 @@ This is similar to a native [`sleep()`](https://linux.die.net/man/3/sleep) funct
 
 **This is the wrong tool for most tasks!** Prefer using async APIs whenever possible. This package can be useful in tests if you need to wait on some resource, for example, where you know it only takes 1 second but there's no good way to detect when it's ready.
 
-This package is better than many other similar packages as it's not a native Node.js addon, but instead uses modern JavaScript features.
+This package is better than many other similar packages as it's not a native Node.js addon, but instead uses modern JavaScript features. It does not work in the browser.
 
 ## Install
 
