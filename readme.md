@@ -1,4 +1,4 @@
-# sleep-synchronously [![Build Status](https://travis-ci.com/sindresorhus/sleep-synchronously.svg?branch=master)](https://travis-ci.com/github/sindresorhus/sleep-synchronously)
+# sleep-synchronously
 
 > Block the main thread for a given amount of time
 
