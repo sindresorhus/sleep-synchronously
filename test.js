@@ -1,7 +1,7 @@
-import {serial as test} from 'ava';
+import test from 'ava';
 import timeSpan from 'time-span';
 import inRange from 'in-range';
-import sleepSynchronously from '.';
+import sleepSynchronously from './index.js';
 
 test('main', t => {
 	const end = timeSpan();

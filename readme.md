@@ -17,7 +17,7 @@ $ npm install sleep-synchronously
 ## Usage
 
 ```js
-const sleepSynchronously = require('sleep-synchronously');
+import sleepSynchronously from 'sleep-synchronously';
 
 console.log(new Date());
 //=> Sun Aug 16 2020 14:28:54 GMT+0200 (Central European Summer Time)
